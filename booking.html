@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking | LUXE VISTA </title>
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&amp;family=Questrial&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main_navigation" id="main_navigation">
+        <section class="navigation_bar">
+
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">MENU</label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li id="drop_down"><a href="restaurant.html">Restaurant</a>
+                        <ul>
+                            <li><a href="event1.html" id="fist_part">Ocean Sunset Cruise</a></li>
+                            <li><a href="event2.html" id="second_part">Starry Night Gala</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="adventures.html">Adventure</a></li>
+                    <li><a href="branches.html">Branches</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="main-logo">
+            <a href="homepage.html"><img src="images/logo.png" alt="hotel logo"></a>
+        </section>
+        <section id="booking_btn">
+            <a href="booking.html" target="_blank" class="book-button" id="booking">book now</a>
+        </section>
+    </header>
+    
+
+
+
+
+
+
+    
+        
+        <section class="booking-form">
+            <h2>Hotel Booking</h2>
+            <form id="hotel-booking-form">
+                <label for="check-in">Check-In Date:</label>
+                <input type="date" id="check-in" name="check-in" required>
+                <label for="check-out">Check-Out Date:</label>
+                <input type="date" id="check-out" name="check-out" required>
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+                <button type="submit">Book Hotel</button>
+            </form>
+        </section>
+        <section class="booking-form">
+            <h2>Adventure Booking</h2>
+            <form id="adventure-booking-form">
+                <label for="adventure-type">Select Adventure:</label>
+                <select id="adventure-type" name="adventure-type" required>
+                    <option value="hiking">HIKING AND TREKKING</option>
+                    <option value="safari">WILDLIFE SAFARIS</option>
+                    <option value="scuba-diving">TEA PLANTATION TOURS</option>
+                </select>
+                <label for="adventure-date">Select Date:</label>
+                <input type="date" id="adventure-date" name="adventure-date" required>
+                <button type="submit">Book Adventure</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="footer_logo">
+                <a href="https://www.luxevistahotel.com/" title="Luxe Vista Hotel">
+                    <img class="main-logo" src="images/logo.png " alt="Luxe Vista" title="Luxe Vista">
+                </a>
+            </div>
+            <div class="footer-inner">
+                <div class="footer-contact-info-wrapper">
+                    <div class="address">
+                        <span class="address-line">LUXE VISTA</span>
+                        <span class="address-line">54,Janadhipathi Mawatha,</span>
+                        <span class="address-line">Colombo 01,Sri Lanka.</span>
+                    </div>
+                    <a class="telephone-link" href="tel:+94112421221">+94 112 421 221</a>			
+                    <div class="address">
+                        <span class="address-line">
+                            <a class="telephone-link" href="mailto:info@luxevistahotels.com" style="font-size:12px;">
+                                    Inquiries:  info@luxevistahotels.com							</a>
+                        </span>
+                        <br>
+                            
+                        <span class="address-line">
+                            <a class="telephone-link" href="mailto:reservations@luxevistahotels.com" style="font-size:12px;">
+                                    Reservations:  reservations@luxevistahotels.com							</a>
+                        </span>
+                    </div>
+         
+                    
+                    <div class="newsletter-wrapper">
+                        <a class="line-link" href="https://www.luxevistahotel.com/newsletter-registration">newsletter subscription <span class="line"></span></a>
+                    </div>
+                    <div class="social-wrapper">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/luxevista" target="_blank">
+                                    <svg aria-hidden="true" width="17" height="16">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook"></use>
+                                    </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/luxevistalk" target="_blank">
+                                    <svg aria-hidden="true" width="17" height="16">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/luxevista/" target="_blank">
+                                    <svg aria-hidden="true" width="17" height="16">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-instagram"></use>
+                                        
+                                    </svg>
+                                </a>
+                            </li>				
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="homepage.html">home</a></li>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li><a href="adventures.html">Adventures</a></li>
+                        <li><a href="branches.html">Branches</a></li>
+                        <li><a>weddings</a></li>
+                        <li><a>location</a></li>
+                        <li><a>facilities</a></li>
+                        <li><a>gallery</a></li>
+                        <li><a>contact us</a></li>
+                    </ul>
+                </div>
+                
+        </footer>
+        
+</body>
+</html>
